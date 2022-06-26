@@ -14,7 +14,7 @@ except ImportError:
 	
 ##############################
 
-Token=input("Token : ")#"5114065560:AAH-Nrmq4ltstOvvguzXcjfddmugkXdjZKI"
+Token=input("5448815567:AAFPowoTVt2Gc2ssev_Kh81-669_FL3AQCE")#""
 bot=telebot.TeleBot(Token)
 @bot.message_handler(commands=["start"])
 def messagee(message):
